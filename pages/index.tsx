@@ -52,10 +52,10 @@ export default function ProjectGallery() {
         </p>
 
         <div className="flex flex-wrap gap-2 mb-4">
-          <Badge className="bg-blue-100 text-blue-800"><strong>Deep Learning:</strong> CNN design, transfer learning, custom loss functions</Badge>
-          <Badge className="bg-blue-100 text-blue-800"><strong>Computer Vision:</strong> Image preprocessing, augmentation, occlusion detection</Badge>
-          <Badge className="bg-blue-100 text-blue-800"><strong>Fair AI:</strong> Gender bias analysis, fairness-aware metrics</Badge>
-          <Badge className="bg-blue-100 text-blue-800"><strong>Model Evaluation:</strong> Custom metrics, regression evaluation under constraints</Badge>
+          <Badge className="bg-blue-100 text-blue-800"><strong>Deep Learning :</strong> CNN design, transfer learning, custom loss functions</Badge>
+          <Badge className="bg-blue-100 text-blue-800"><strong>Computer Vision :</strong> Image preprocessing, augmentation, occlusion detection</Badge>
+          <Badge className="bg-blue-100 text-blue-800"><strong>Fair AI :</strong> Gender bias analysis, fairness-aware metrics</Badge>
+          <Badge className="bg-blue-100 text-blue-800"><strong>Model Evaluation :</strong> Custom metrics, regression evaluation under constraints</Badge>
           
         </div>
 
@@ -83,7 +83,7 @@ export default function ProjectGallery() {
         </div>
 
         <p>
-          <strong>Résultat :</strong> Création de visualisations interactives avec filtrage par pays et période. Présenté lors d'une soutenance finale.
+          <strong>Results :</strong> Our final model achieved highly accurate and fair predictions, with a mean weighted error of only 0.002 for both male and female subjects. This symmetry highlights the model's robustness and fairness, especially considering the gender imbalance in the training dataset.
         </p>
       </MotionDiv>
 
