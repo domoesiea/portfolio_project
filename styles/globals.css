@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles perso */
+body {
+  font-family: sans-serif;
+  background-color: #f0f4ff;
+}
