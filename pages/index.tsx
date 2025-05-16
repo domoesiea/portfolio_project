@@ -103,7 +103,7 @@ export default function ProjectGallery() {
         </p>
       </MotionDiv>
 
-      {/* Projet 1 */}
+      {/* Projet 3 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
         <h1 className="text-2xl font-bold mb-2">Toxicity Detection System Using Natural Language Processing (NLP)</h1>
         <p className="text-muted-foreground mb-4">
@@ -145,7 +145,7 @@ export default function ProjectGallery() {
         </p>
       </MotionDiv>
 
-      {/* Projet 1 */}
+      {/* Projet 4 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
         <h1 className="text-2xl font-bold mb-2">Setting up a complete CI/CD pipeline with Kubernetes, GitLab, and Argo Workflows</h1>
         <p className="text-muted-foreground mb-4">
@@ -187,9 +187,9 @@ export default function ProjectGallery() {
         </p>
       </MotionDiv>
 
-      {/* Projet 1 */}
+      {/* Projet 5 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-2xl font-bold mb-2">Contributed to the development of Medica, an AI-based virtual assistant at Capgemini Engineering. (2024)</h1>
+        <h1 className="text-2xl font-bold mb-2">Minimalist MAS: Two Intelligent Agents in Mirror Image</h1>
         <p className="text-muted-foreground mb-4">
         I conducted a state-of-the-art review of LLMs (Pegasus, LLaMA 3.1 8B). <strong>Machine Learning Appliqué</strong>. L'objectif était de prédire les ventes à partir de données historiques.
         </p>
@@ -229,11 +229,139 @@ export default function ProjectGallery() {
         </p>
       </MotionDiv>
 
-      {/* Projet 1 */}
+      {/* Projet 6 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-2xl font-bold mb-2">Contributed to the development of Medica, an AI-based virtual assistant at Capgemini Engineering. (2024)</h1>
+        <h1 className="text-2xl font-bold mb-2">OpenDom'X IoT Analysis Platform</h1>
         <p className="text-muted-foreground mb-4">
-        I conducted a state-of-the-art review of LLMs (Pegasus, LLaMA 3.1 8B). <strong>Machine Learning Appliqué</strong>. L'objectif était de prédire les ventes à partir de données historiques.
+        Focused on Electronics, Programming, Embedded Systems, Forensics, System and Network, Reverse Engineering, IoT, and Git.
+
+        Connected devices using different communication protocols, studied the security of these devices, and developed a mobile application to control them.
+        </p>
+
+        <div className="flex flex-wrap gap-2 mb-4">
+          <Badge className="bg-blue-100 text-blue-800">Python</Badge>
+          <Badge className="bg-blue-100 text-blue-800">scikit-learn</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Pandas</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Jupyter</Badge>
+        </div>
+
+        <Card className="mb-4">
+          <CardContent className="p-2">
+            <img
+              src="/sales-graph.png"
+              alt="Graphique des prédictions"
+              className="rounded-2xl shadow-md"
+            />
+          </CardContent>
+        </Card>
+
+        <div className="flex gap-4 mb-6">
+          <Button asChild className="px-4 py-2">
+            <a href="#" target="_blank">
+              📊 Voir le Notebook
+            </a>
+          </Button>
+          <Button variant="secondary" asChild className="">
+            <a href="#" target="_blank">
+              📝 Lire le Rapport
+            </a>
+          </Button>
+        </div>
+
+        <p>
+          <strong>Résultat :</strong> Précision de 90 % grâce à la validation croisée. Utilisation de la régression linéaire et de la sélection de features.
+        </p>
+      </MotionDiv>
+
+      {/* Projet 7 */}
+      <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+        <h1 className="text-2xl font-bold mb-2">Ecological Watering Mobile App in Flutter</h1>
+        <p className="text-muted-foreground mb-4">
+        Created a mobile application for ecological watering using Flutter, showcasing cross-platform development skills.
+        </p>
+
+        <div className="flex flex-wrap gap-2 mb-4">
+          <Badge className="bg-blue-100 text-blue-800">Python</Badge>
+          <Badge className="bg-blue-100 text-blue-800">scikit-learn</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Pandas</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Jupyter</Badge>
+        </div>
+
+        <Card className="mb-4">
+          <CardContent className="p-2">
+            <img
+              src="/sales-graph.png"
+              alt="Graphique des prédictions"
+              className="rounded-2xl shadow-md"
+            />
+          </CardContent>
+        </Card>
+
+        <div className="flex gap-4 mb-6">
+          <Button asChild className="px-4 py-2">
+            <a href="#" target="_blank">
+              📊 Voir le Notebook
+            </a>
+          </Button>
+          <Button variant="secondary" asChild className="">
+            <a href="#" target="_blank">
+              📝 Lire le Rapport
+            </a>
+          </Button>
+        </div>
+
+        <p>
+          <strong>Résultat :</strong> Précision de 90 % grâce à la validation croisée. Utilisation de la régression linéaire et de la sélection de features.
+        </p>
+      </MotionDiv>
+
+      {/* Projet 8 */}
+      <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+        <h1 className="text-2xl font-bold mb-2">Embedded System Development</h1>
+        <p className="text-muted-foreground mb-4">
+        Worked with STM32, relays, ultrasonic sensors, LEDs, temperature and humidity sensors, ESP32, and solenoid valves to create a comprehensive embedded system.
+        </p>
+
+        <div className="flex flex-wrap gap-2 mb-4">
+          <Badge className="bg-blue-100 text-blue-800">Python</Badge>
+          <Badge className="bg-blue-100 text-blue-800">scikit-learn</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Pandas</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Jupyter</Badge>
+        </div>
+
+        <Card className="mb-4">
+          <CardContent className="p-2">
+            <img
+              src="/sales-graph.png"
+              alt="Graphique des prédictions"
+              className="rounded-2xl shadow-md"
+            />
+          </CardContent>
+        </Card>
+
+        <div className="flex gap-4 mb-6">
+          <Button asChild className="px-4 py-2">
+            <a href="#" target="_blank">
+              📊 Voir le Notebook
+            </a>
+          </Button>
+          <Button variant="secondary" asChild className="">
+            <a href="#" target="_blank">
+              📝 Lire le Rapport
+            </a>
+          </Button>
+        </div>
+
+        <p>
+          <strong>Résultat :</strong> Précision de 90 % grâce à la validation croisée. Utilisation de la régression linéaire et de la sélection de features.
+        </p>
+      </MotionDiv>
+
+      {/* Projet 6 */}
+      <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+        <h1 className="text-2xl font-bold mb-2">Bullet Hell Game Development in Python</h1>
+        <p className="text-muted-foreground mb-4">
+        Developed a bullet hell game using Python, demonstrating advanced programming skills and game design principles. (2022)
         </p>
 
         <div className="flex flex-wrap gap-2 mb-4">
