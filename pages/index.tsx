@@ -22,43 +22,14 @@ export default function ProjectGallery() {
       {/* Projet 1 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
         <h1 className="text-2xl font-bold mb-2">Contributed to the development of Medica, an AI-based virtual assistant at Capgemini Engineering. (2024)</h1>
-        <p className="text-muted-foreground mb-4">
-        I conducted a state-of-the-art review of LLMs (Pegasus, LLaMA 3.1 8B). <strong>Machine Learning Appliqué</strong>. L'objectif était de prédire les ventes à partir de données historiques.
-        </p>
 
         <div className="flex flex-wrap gap-2 mb-4">
           <Badge className="bg-blue-100 text-blue-800">Python</Badge>
           <Badge className="bg-blue-100 text-blue-800">scikit-learn</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Pandas</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Jupyter</Badge>
+          <Badge className="bg-blue-100 text-blue-800">project management</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Docker</Badge>
+          <Badge className="bg-blue-100 text-blue-800">State of the art</Badge>
         </div>
-
-        <Card className="mb-4">
-          <CardContent className="p-2">
-            <img
-              src="/sales-graph.png"
-              alt="Graphique des prédictions"
-              className="rounded-2xl shadow-md"
-            />
-          </CardContent>
-        </Card>
-
-        <div className="flex gap-4 mb-6">
-          <Button asChild className="px-4 py-2">
-            <a href="#" target="_blank">
-              📊 Voir le Notebook
-            </a>
-          </Button>
-          <Button variant="secondary" asChild className="">
-            <a href="#" target="_blank">
-              📝 Lire le Rapport
-            </a>
-          </Button>
-        </div>
-
-        <p>
-          <strong>Résultat :</strong> Précision de 90 % grâce à la validation croisée. Utilisation de la régression linéaire et de la sélection de features.
-        </p>
       </MotionDiv>
 
       {/* Projet 2 */}
