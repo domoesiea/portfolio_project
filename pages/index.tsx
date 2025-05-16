@@ -52,10 +52,10 @@ export default function ProjectGallery() {
         </p>
 
         <div className="flex flex-wrap gap-2 mb-4">
-          <Badge className="bg-blue-100 text-blue-800">Deep Learning: CNN design, transfer learning, custom loss functions</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Computer Vision: Image preprocessing, augmentation, occlusion detection</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Fair AI: Gender bias analysis, fairness-aware metrics</Badge>
-          <Badge className="bg-blue-100 text-blue-800">JModel Evaluation: Custom metrics, regression evaluation under constraints</Badge>
+          <Badge className="bg-blue-100 text-blue-800"><strong>Deep Learning:</strong> CNN design, transfer learning, custom loss functions</Badge>
+          <Badge className="bg-blue-100 text-blue-800"><strong>Computer Vision:</strong> Image preprocessing, augmentation, occlusion detection</Badge>
+          <Badge className="bg-blue-100 text-blue-800"><strong>Fair AI:</strong> Gender bias analysis, fairness-aware metrics</Badge>
+          <Badge className="bg-blue-100 text-blue-800"><strong>Model Evaluation:</strong> Custom metrics, regression evaluation under constraints</Badge>
           
         </div>
 
