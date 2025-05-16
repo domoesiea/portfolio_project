@@ -32,11 +32,21 @@ export default function ProjectGallery() {
           <Badge className="bg-blue-100 text-blue-800">Docker</Badge>
           <Badge className="bg-blue-100 text-blue-800">State of the art</Badge>
         </div>
+
+        <Card className="mb-4">
+          <CardContent className="p-2">
+            <img
+              src="/image/capgemini.jpg"
+              alt="capgemini"
+              className="rounded-2xl shadow-md"
+            />
+          </CardContent>
+        </Card>
       </MotionDiv>
 
       {/* Projet 2 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-2xl font-bold mb-2">Deep Learning Regression for Facial Occlusion Prediction</h1>
+        <h1 className="text-2xl font-bold mb-2">Deep Learning Regression for Facial Occlusion Prediction (2024)</h1>
         <p className="text-muted-foreground mb-4">
         I developed a deep learning model for a regression task aimed at predicting the percentage of facial occlusion in images. This project utilized a dataset of 112x112 color images and implemented advanced techniques to address challenges like dataset imbalance, fairness, and overfitting.
         </p>
