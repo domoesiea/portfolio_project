@@ -48,7 +48,7 @@ export default function ProjectGallery() {
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
         <h1 className="text-2xl font-bold mb-2">Deep Learning Regression for Facial Occlusion Prediction (2024)</h1>
         <p className="text-muted-foreground mb-4">
-        I developed a deep learning model for a regression task aimed at predicting the percentage of facial occlusion in images. This project utilized a dataset of 112x112 color images and implemented advanced techniques to address challenges like dataset imbalance, fairness, and overfitting.
+        I developed a deep learning model for a regression task aimed at predicting the percentage of facial occlusion in images. This project implemented advanced techniques to address challenges like dataset <strong>imbalance, fairness, and overfitting.</strong>
         </p>
 
         <div className="flex flex-wrap gap-2 mb-4">
