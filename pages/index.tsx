@@ -22,7 +22,9 @@ export default function ProjectGallery() {
       {/* Projet 1 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
         <h1 className="text-2xl font-bold mb-2">Contributed to the development of Medica, an AI-based virtual assistant at Capgemini Engineering. (2024)</h1>
-
+        <p className="text-muted-foreground mb-4">
+        I participated in the state of the art of open source LLMs and helped choose the LLM that will be used to summarize patient consultations.
+        </p>
         <div className="flex flex-wrap gap-2 mb-4">
           <Badge className="bg-blue-100 text-blue-800">Python</Badge>
           <Badge className="bg-blue-100 text-blue-800">scikit-learn</Badge>
