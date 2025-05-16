@@ -46,16 +46,17 @@ export default function ProjectGallery() {
 
       {/* Projet 2 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-2xl font-bold mb-2">Deep Learning Regression for Facial Occlusion Prediction (2024)</h1>
+        <h1 className="text-2xl font-bold mb-2">Deep Learning Regression Project — Facial Occlusion Estimation (2024)</h1>
         <p className="text-muted-foreground mb-4">
-        I developed a deep learning model for a regression task aimed at predicting the percentage of facial occlusion in images. This project implemented advanced techniques to address challenges like dataset <strong>imbalance, fairness, and overfitting.</strong>
+        Developed a deep learning model to predict the percentage of facial occlusion from images. This is a supervised regression problem, with a special focus on fairness across gender in predictions.
         </p>
 
         <div className="flex flex-wrap gap-2 mb-4">
-          <Badge className="bg-blue-100 text-blue-800">Python</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Plotly</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Pandas</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Jupyter</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Deep Learning: CNN design, transfer learning, custom loss functions</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Computer Vision: Image preprocessing, augmentation, occlusion detection</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Fair AI: Gender bias analysis, fairness-aware metrics</Badge>
+          <Badge className="bg-blue-100 text-blue-800">JModel Evaluation: Custom metrics, regression evaluation under constraints</Badge>
+          
         </div>
 
         <Card className="mb-4">
