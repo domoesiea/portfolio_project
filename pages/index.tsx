@@ -176,22 +176,25 @@ export default function ProjectGallery() {
 
       {/* Projet 5 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-2xl font-bold mb-2">Minimalist MAS: Two Intelligent Agents in Mirror Image</h1>
+        <h1 className="text-2xl font-bold mb-2">Multi-Agent System — Wumpus World Hunter Agent (2023)</h1>
         <p className="text-muted-foreground mb-4">
-        I conducted a state-of-the-art review of LLMs (Pegasus, LLaMA 3.1 8B). <strong>Machine Learning Appliqué</strong>. L'objectif était de prédire les ventes à partir de données historiques.
+        Designed a minimalist multi-agent system (MAS) simulating a Wumpus World (WW) scenario using two intelligent agents:
+        <ul>
+          <li>- A Gold Hunter Agent</li>
+          <li>- A WW Simulator Agent</li>
+        </ul>
         </p>
 
         <div className="flex flex-wrap gap-2 mb-4">
-          <Badge className="bg-blue-100 text-blue-800">Python</Badge>
-          <Badge className="bg-blue-100 text-blue-800">scikit-learn</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Pandas</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Jupyter</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Declarative logic programming using CLP</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Prolog</Badge>
+          
         </div>
 
         <Card className="mb-4">
           <CardContent className="p-2">
             <img
-              src="/sales-graph.png"
+              src="/esiea.png"
               alt="Graphique des prédictions"
               className="rounded-2xl shadow-md"
             />
@@ -211,9 +214,6 @@ export default function ProjectGallery() {
           </Button>
         </div>
 
-        <p>
-          <strong>Résultat :</strong> Précision de 90 % grâce à la validation croisée. Utilisation de la régression linéaire et de la sélection de features.
-        </p>
       </MotionDiv>
 
       {/* Projet 6 */}
@@ -235,7 +235,7 @@ export default function ProjectGallery() {
         <Card className="mb-4">
           <CardContent className="p-2">
             <img
-              src="/sales-graph.png"
+              src="/esiea.png"
               alt="Graphique des prédictions"
               className="rounded-2xl shadow-md"
             />
