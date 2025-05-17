@@ -221,6 +221,10 @@ export default function ProjectGallery() {
         <h1 className="text-2xl font-bold mb-2">OpenDom'X — IoT Analysis & Control Platform</h1>
         <p className="text-muted-foreground mb-4">
         <strong>OpenDom'X </strong>is an IoT-focused analysis platform designed to explore <strong>the security, control, and communication</strong> of connected devices. This project combined <strong>hardware, embedded systems, reverse engineering, and mobile development.</strong></p>
+        <h1>Objectives</h1> 
+          <p>- Analyze and secure various connected devices (IoT) </p>
+          <p>- Explore communication protocols and embedded firmware</p>
+          <p>- Develop a mobile application to control and monitor devices remotely</p>
 
         <div className="flex flex-wrap gap-2 mb-4">
           <Badge className="bg-blue-100 text-blue-800">Python</Badge>
@@ -228,6 +232,8 @@ export default function ProjectGallery() {
           <Badge className="bg-blue-100 text-blue-800">Pandas</Badge>
           <Badge className="bg-blue-100 text-blue-800">Jupyter</Badge>
         </div>
+
+
 
         <Card className="mb-4">
           <CardContent className="p-2">
