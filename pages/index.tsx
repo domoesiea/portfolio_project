@@ -131,27 +131,19 @@ export default function ProjectGallery() {
 
       {/* Projet 4 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-2xl font-bold mb-2">Setting up a complete CI/CD pipeline with Kubernetes, GitLab, and Argo Workflows</h1>
+        <h1 className="text-2xl font-bold mb-2">MLOps Pipeline — GitLab CI/CD, Argo Workflows & Kubernetes</h1>
         <p className="text-muted-foreground mb-4">
-        I conducted a state-of-the-art review of LLMs (Pegasus, LLaMA 3.1 8B). <strong>Machine Learning Appliqué</strong>. L'objectif était de prédire les ventes à partir de données historiques.
+          Designed and deployed a complete MLOps pipeline to automate the training, deployment, and orchestration of a data science application using GitLab CI/CD, Argo Workflows, and Kubernetes.
         </p>
 
         <div className="flex flex-wrap gap-2 mb-4">
-          <Badge className="bg-blue-100 text-blue-800">Python</Badge>
-          <Badge className="bg-blue-100 text-blue-800">scikit-learn</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Pandas</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Jupyter</Badge>
+          <Badge className="bg-blue-100 text-blue-800">MLOps best practices and CI/CD integration</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Kubernetes orchestration and Argo Workflow design</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Docker image creation and registry management</Badge>
+          <Badge className="bg-blue-100 text-blue-800">GitLab runner configuration and DevOps automation</Badge>
         </div>
 
-        <Card className="mb-4">
-          <CardContent className="p-2">
-            <img
-              src="/sales-graph.png"
-              alt="Graphique des prédictions"
-              className="rounded-2xl shadow-md"
-            />
-          </CardContent>
-        </Card>
+        
 
         <div className="flex gap-4 mb-6">
           <Button asChild className="px-4 py-2">
@@ -165,10 +157,6 @@ export default function ProjectGallery() {
             </a>
           </Button>
         </div>
-
-        <p>
-          <strong>Résultat :</strong> Précision de 90 % grâce à la validation croisée. Utilisation de la régression linéaire et de la sélection de features.
-        </p>
       </MotionDiv>
 
       {/* Projet 5 */}
