@@ -218,14 +218,14 @@ export default function ProjectGallery() {
 
       {/* Projet 6 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-2xl font-bold mb-2">OpenDom'X — IoT Analysis & Control Platform</h1>
+        <h1 className="text-2xl font-bold mb-2">OpenDom'X — IoT Analysis & Control Platform (2023)</h1>
         <p className="text-muted-foreground mb-4">
         <strong>OpenDom'X </strong>is an IoT-focused analysis platform designed to explore <strong>the security, control, and communication</strong> of connected devices. This project combined <strong>hardware, embedded systems, reverse engineering, and mobile development.</strong></p>
         <h1><strong>Objectives :</strong></h1> 
           <p>- Analyze and secure various connected devices (IoT) </p>
           <p>- Explore communication protocols and embedded firmware</p>
           <p>- Develop a mobile application to control and monitor devices remotely</p>
-          <p></p>
+          <br /> 
 
           <h1><strong>Tools & Technologies :</strong></h1> 
 
@@ -236,7 +236,7 @@ export default function ProjectGallery() {
             <p>- Reverse Engineering and Forensics</p>
 
             <p>- Mobile Development: Cross-platform control app </p>
-            <p></p>
+            <br /> 
 
             <h1><strong>Key Contributions :</strong></h1>
             <p>- Connected and tested IoT devices using multiple communication standards</p>
@@ -246,7 +246,7 @@ export default function ProjectGallery() {
             <p>- Designed and implemented a custom mobile app to control smart devices</p>
 
             <p>- Designed and implemented a custom mobile app to control smart devices</p>
-            <p></p>
+            <br /> 
 
         <div className="flex flex-wrap gap-2 mb-4">
           <Badge className="bg-blue-100 text-blue-800">Embedded systems and firmware interaction</Badge>
@@ -280,29 +280,24 @@ export default function ProjectGallery() {
           </Button>
         </div>
 
-        <p>
-          <strong>Résultat :</strong> Précision de 90 % grâce à la validation croisée. Utilisation de la régression linéaire et de la sélection de features.
-        </p>
       </MotionDiv>
 
       {/* Projet 7 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-2xl font-bold mb-2">Ecological Watering Mobile App in Flutter</h1>
+        <h1 className="text-2xl font-bold mb-2">Ecological Watering Mobile App in Flutter (2022)</h1>
         <p className="text-muted-foreground mb-4">
-        Created a mobile application for ecological watering using Flutter, showcasing cross-platform development skills.
+        Created a mobile application for ecological watering using Flutter.
         </p>
 
         <div className="flex flex-wrap gap-2 mb-4">
-          <Badge className="bg-blue-100 text-blue-800">Python</Badge>
-          <Badge className="bg-blue-100 text-blue-800">scikit-learn</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Pandas</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Jupyter</Badge>
+          <Badge className="bg-blue-100 text-blue-800">Flutter</Badge>
+          
         </div>
 
         <Card className="mb-4">
           <CardContent className="p-2">
             <img
-              src="/sales-graph.png"
+              src="esiea.png"
               alt="Graphique des prédictions"
               className="rounded-2xl shadow-md"
             />
@@ -322,29 +317,19 @@ export default function ProjectGallery() {
           </Button>
         </div>
 
-        <p>
-          <strong>Résultat :</strong> Précision de 90 % grâce à la validation croisée. Utilisation de la régression linéaire et de la sélection de features.
-        </p>
       </MotionDiv>
 
       {/* Projet 8 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-2xl font-bold mb-2">Embedded System Development</h1>
+        <h1 className="text-2xl font-bold mb-2">Embedded System Development (2023)</h1>
         <p className="text-muted-foreground mb-4">
         Worked with STM32, relays, ultrasonic sensors, LEDs, temperature and humidity sensors, ESP32, and solenoid valves to create a comprehensive embedded system.
         </p>
 
-        <div className="flex flex-wrap gap-2 mb-4">
-          <Badge className="bg-blue-100 text-blue-800">Python</Badge>
-          <Badge className="bg-blue-100 text-blue-800">scikit-learn</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Pandas</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Jupyter</Badge>
-        </div>
-
         <Card className="mb-4">
           <CardContent className="p-2">
             <img
-              src="/sales-graph.png"
+              src="/esiea.png"
               alt="Graphique des prédictions"
               className="rounded-2xl shadow-md"
             />
@@ -364,29 +349,25 @@ export default function ProjectGallery() {
           </Button>
         </div>
 
-        <p>
-          <strong>Résultat :</strong> Précision de 90 % grâce à la validation croisée. Utilisation de la régression linéaire et de la sélection de features.
-        </p>
       </MotionDiv>
 
       {/* Projet 6 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-2xl font-bold mb-2">Bullet Hell Game Development in Python</h1>
+        <h1 className="text-2xl font-bold mb-2">Bullet Hell Game Development in Python (2022)</h1>
         <p className="text-muted-foreground mb-4">
-        Developed a bullet hell game using Python, demonstrating advanced programming skills and game design principles. (2022)
+        Developed a bullet hell game using Pygame.
         </p>
 
         <div className="flex flex-wrap gap-2 mb-4">
           <Badge className="bg-blue-100 text-blue-800">Python</Badge>
-          <Badge className="bg-blue-100 text-blue-800">scikit-learn</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Pandas</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Jupyter</Badge>
+          <Badge className="bg-blue-100 text-blue-800">C++</Badge>
+          
         </div>
 
         <Card className="mb-4">
           <CardContent className="p-2">
             <img
-              src="/sales-graph.png"
+              src="/esiea.png"
               alt="Graphique des prédictions"
               className="rounded-2xl shadow-md"
             />
@@ -406,9 +387,6 @@ export default function ProjectGallery() {
           </Button>
         </div>
 
-        <p>
-          <strong>Résultat :</strong> Précision de 90 % grâce à la validation croisée. Utilisation de la régression linéaire et de la sélection de features.
-        </p>
       </MotionDiv>
 
       {/* À propos de moi */}
