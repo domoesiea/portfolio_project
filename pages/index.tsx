@@ -124,14 +124,15 @@ export default function ProjectGallery() {
         </div>
 
         <p>
-          <strong>Results:</strong>
-          <ul>
-            <li>RoBERTa outperformed the LLM baseline in both accuracy and latency.</li>
-            <li>Detailed <em>Model Card</em> and performance visualizations were created.</li>
-            <li>Achieved low-latency inference through a deployed API.</li>
-            <li>Implemented bias analysis and interpretability techniques (e.g., SHAP, LIME).</li>
-          </ul>
-        </p>
+            <strong>Results:</strong>
+            <ul>
+              <li>– RoBERTa outperformed the LLM baseline in both accuracy and latency.</li>
+              <li>– Detailed <em>Model Card</em> and performance visualizations were created.</li>
+              <li>– Achieved low-latency inference through a deployed API.</li>
+              <li>– Implemented bias analysis and interpretability techniques (e.g., SHAP, LIME).</li>
+            </ul>
+          </p>
+
 
       </MotionDiv>
 
