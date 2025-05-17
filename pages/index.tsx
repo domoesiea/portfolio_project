@@ -218,12 +218,9 @@ export default function ProjectGallery() {
 
       {/* Projet 6 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-2xl font-bold mb-2">OpenDom'X IoT Analysis Platform</h1>
+        <h1 className="text-2xl font-bold mb-2">OpenDom'X — IoT Analysis & Control Platform</h1>
         <p className="text-muted-foreground mb-4">
-        Focused on Electronics, Programming, Embedded Systems, Forensics, System and Network, Reverse Engineering, IoT, and Git.
-
-        Connected devices using different communication protocols, studied the security of these devices, and developed a mobile application to control them.
-        </p>
+        <strong>OpenDom'X </strong>is an IoT-focused analysis platform designed to explore <strong>the security, control, and communication</strong> of connected devices. This project combined <strong>hardware, embedded systems, reverse engineering, and mobile development.</strong></p>
 
         <div className="flex flex-wrap gap-2 mb-4">
           <Badge className="bg-blue-100 text-blue-800">Python</Badge>
