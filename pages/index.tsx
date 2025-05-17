@@ -221,12 +221,13 @@ export default function ProjectGallery() {
         <h1 className="text-2xl font-bold mb-2">OpenDom'X — IoT Analysis & Control Platform</h1>
         <p className="text-muted-foreground mb-4">
         <strong>OpenDom'X </strong>is an IoT-focused analysis platform designed to explore <strong>the security, control, and communication</strong> of connected devices. This project combined <strong>hardware, embedded systems, reverse engineering, and mobile development.</strong></p>
-        <h1><strong>Objectives</strong></h1> 
+        <h1><strong>Objectives :</strong></h1> 
           <p>- Analyze and secure various connected devices (IoT) </p>
           <p>- Explore communication protocols and embedded firmware</p>
           <p>- Develop a mobile application to control and monitor devices remotely</p>
+          <p></p>
 
-          <h1><strong>Tools & Technologies</strong></h1> 
+          <h1><strong>Tools & Technologies :</strong></h1> 
 
             <p>- Electronics & Embedded Systems</p>
 
@@ -235,8 +236,9 @@ export default function ProjectGallery() {
             <p>- Reverse Engineering and Forensics</p>
 
             <p>- Mobile Development: Cross-platform control app </p>
+            <p></p>
 
-            <h1><strong>Key Contributions</strong></h1>
+            <h1><strong>Key Contributions :</strong></h1>
             <p>- Connected and tested IoT devices using multiple communication standards</p>
 
             <p>- Performed security audits and reverse engineering on embedded components</p>
@@ -244,6 +246,7 @@ export default function ProjectGallery() {
             <p>- Designed and implemented a custom mobile app to control smart devices</p>
 
             <p>- Designed and implemented a custom mobile app to control smart devices</p>
+            <p></p>
 
         <div className="flex flex-wrap gap-2 mb-4">
           <Badge className="bg-blue-100 text-blue-800">Embedded systems and firmware interaction</Badge>
