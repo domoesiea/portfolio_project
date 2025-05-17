@@ -62,7 +62,7 @@ export default function ProjectGallery() {
         <Card className="mb-4">
           <CardContent className="p-2">
             <img
-              src="/covid-dashboard.png"
+              src="/esiea.png"
               alt="Dashboard COVID"
               className="rounded-2xl shadow-md"
             />
@@ -103,7 +103,7 @@ export default function ProjectGallery() {
         <Card className="mb-4">
           <CardContent className="p-2">
             <img
-              src="/sales-graph.png"
+              src="/esiea.png"
               alt="Graphique des prédictions"
               className="rounded-2xl shadow-md"
             />
@@ -149,7 +149,15 @@ export default function ProjectGallery() {
           <Badge className="bg-blue-100 text-blue-800">GitLab runner configuration and DevOps automation</Badge>
         </div>
 
-        
+        <Card className="mb-4">
+          <CardContent className="p-2">
+            <img
+              src="/esiea.png"
+              alt="Graphique des prédictions"
+              className="rounded-2xl shadow-md"
+            />
+          </CardContent>
+        </Card>
 
         <div className="flex gap-4 mb-6">
           <Button asChild className="px-4 py-2">
