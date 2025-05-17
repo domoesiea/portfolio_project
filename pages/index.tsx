@@ -89,16 +89,15 @@ export default function ProjectGallery() {
 
       {/* Projet 3 */}
       <MotionDiv initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-2xl font-bold mb-2">Toxicity Detection System Using Natural Language Processing (NLP)</h1>
+        <h1 className="text-2xl font-bold mb-2">Natural Language Processing — Toxicity Detection in Text (2024)</h1>
         <p className="text-muted-foreground mb-4">
-        I developed a comprehensive machine learning system for toxicity detection in text. This project integrates advanced technical components, such as data preprocessing and model fine-tuning, with ethical and operational considerations like bias, fairness, and scalability.
-        </p>
+        Built a near-production NLP system for<strong>toxic comment classification</strong> , based <strong>on the Google Jigsaw dataset</strong>. This project combined deep learning, model explainability, and API deployment with a strong focus <strong>on fairness, scalability, and resilience.</strong>        </p>
 
         <div className="flex flex-wrap gap-2 mb-4">
-          <Badge className="bg-blue-100 text-blue-800">Python</Badge>
-          <Badge className="bg-blue-100 text-blue-800">scikit-learn</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Pandas</Badge>
-          <Badge className="bg-blue-100 text-blue-800">Jupyter</Badge>
+          <Badge className="bg-blue-100 text-blue-800"> <strong>NLP : </strong>Preprocessing, classification, transformer fine-tuning</Badge>
+          <Badge className="bg-blue-100 text-blue-800"><strong>MLOps : </strong> API deployment, latency monitoring, model versioning</Badge>
+          <Badge className="bg-blue-100 text-blue-800"><strong>Model Explainability : </strong> SHAP, LIME, visualizations</Badge>
+          <Badge className="bg-blue-100 text-blue-800"><strong>Bias & Fairness Auditing : </strong> Impact of language bias in ML</Badge>
         </div>
 
         <Card className="mb-4">
@@ -125,8 +124,15 @@ export default function ProjectGallery() {
         </div>
 
         <p>
-          <strong>Résultat :</strong> Précision de 90 % grâce à la validation croisée. Utilisation de la régression linéaire et de la sélection de features.
+          <strong>Results:</strong>
+          <ul>
+            <li>RoBERTa outperformed the LLM baseline in both accuracy and latency.</li>
+            <li>Detailed <em>Model Card</em> and performance visualizations were created.</li>
+            <li>Achieved low-latency inference through a deployed API.</li>
+            <li>Implemented bias analysis and interpretability techniques (e.g., SHAP, LIME).</li>
+          </ul>
         </p>
+
       </MotionDiv>
 
       {/* Projet 4 */}
