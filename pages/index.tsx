@@ -36,7 +36,7 @@ export default function ProjectGallery() {
         <Card className="mb-4">
           <CardContent className="p-2">
             <img
-              src="/image/capgemini.JPG"
+              src="/capgemini.jpg"
               alt="capgemini"
               className="rounded-2xl shadow-md"
             />
