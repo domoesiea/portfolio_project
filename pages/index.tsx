@@ -70,11 +70,6 @@ export default function ProjectGallery() {
         </Card>
 
         <div className="flex gap-4 mb-6">
-          <Button asChild  className=" ">
-            <a href="#" target="_blank">
-              📊 Voir le Notebook
-            </a>
-          </Button>
           <Button variant="secondary" asChild  className="">
             <a href="#" target="_blank">
               📝 Lire le Rapport
@@ -109,19 +104,6 @@ export default function ProjectGallery() {
             />
           </CardContent>
         </Card>
-
-        <div className="flex gap-4 mb-6">
-          <Button asChild className="px-4 py-2">
-            <a href="#" target="_blank">
-              📊 Voir le Notebook
-            </a>
-          </Button>
-          <Button variant="secondary" asChild className="">
-            <a href="#" target="_blank">
-              📝 Lire le Rapport
-            </a>
-          </Button>
-        </div>
 
         <p>
             <strong>Results:</strong>
@@ -160,18 +142,7 @@ export default function ProjectGallery() {
           </CardContent>
         </Card>
 
-        <div className="flex gap-4 mb-6">
-          <Button asChild className="px-4 py-2">
-            <a href="#" target="_blank">
-              📊 Voir le Notebook
-            </a>
-          </Button>
-          <Button variant="secondary" asChild className="">
-            <a href="#" target="_blank">
-              📝 Lire le Rapport
-            </a>
-          </Button>
-        </div>
+        
       </MotionDiv>
 
       {/* Projet 5 */}
@@ -200,19 +171,6 @@ export default function ProjectGallery() {
             />
           </CardContent>
         </Card>
-
-        <div className="flex gap-4 mb-6">
-          <Button asChild className="px-4 py-2">
-            <a href="#" target="_blank">
-              📊 Voir le Notebook
-            </a>
-          </Button>
-          <Button variant="secondary" asChild className="">
-            <a href="#" target="_blank">
-              📝 Lire le Rapport
-            </a>
-          </Button>
-        </div>
 
       </MotionDiv>
 
@@ -267,18 +225,6 @@ export default function ProjectGallery() {
           </CardContent>
         </Card>
 
-        <div className="flex gap-4 mb-6">
-          <Button asChild className="px-4 py-2">
-            <a href="#" target="_blank">
-              📊 Voir le Notebook
-            </a>
-          </Button>
-          <Button variant="secondary" asChild className="">
-            <a href="#" target="_blank">
-              📝 Lire le Rapport
-            </a>
-          </Button>
-        </div>
 
       </MotionDiv>
 
@@ -304,18 +250,6 @@ export default function ProjectGallery() {
           </CardContent>
         </Card>
 
-        <div className="flex gap-4 mb-6">
-          <Button asChild className="px-4 py-2">
-            <a href="#" target="_blank">
-              📊 Voir le Notebook
-            </a>
-          </Button>
-          <Button variant="secondary" asChild className="">
-            <a href="#" target="_blank">
-              📝 Lire le Rapport
-            </a>
-          </Button>
-        </div>
 
       </MotionDiv>
 
@@ -336,18 +270,6 @@ export default function ProjectGallery() {
           </CardContent>
         </Card>
 
-        <div className="flex gap-4 mb-6">
-          <Button asChild className="px-4 py-2">
-            <a href="#" target="_blank">
-              📊 Voir le Notebook
-            </a>
-          </Button>
-          <Button variant="secondary" asChild className="">
-            <a href="#" target="_blank">
-              📝 Lire le Rapport
-            </a>
-          </Button>
-        </div>
 
       </MotionDiv>
 
@@ -374,18 +296,6 @@ export default function ProjectGallery() {
           </CardContent>
         </Card>
 
-        <div className="flex gap-4 mb-6">
-          <Button asChild className="px-4 py-2">
-            <a href="#" target="_blank">
-              📊 Voir le Notebook
-            </a>
-          </Button>
-          <Button variant="secondary" asChild className="">
-            <a href="#" target="_blank">
-              📝 Lire le Rapport
-            </a>
-          </Button>
-        </div>
 
       </MotionDiv>
 
@@ -437,25 +347,7 @@ export default function ProjectGallery() {
           </MotionLink>
         </div>
 
-        {/* Compétences */}
-        <h2 className="text-3xl font-bold mt-12 mb-4">Compétences</h2>
         
-
-        <MotionDiv
-        className="flex flex-wrap justify-center gap-3"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ delay: 0.2, duration: 0.6 }}
-        >
-          <Badge className="bg-green-100 text-green-800">Python</Badge>
-          <Badge className="bg-green-100 text-green-800">Pandas</Badge>
-          <Badge className="bg-green-100 text-green-800">scikit-learn</Badge>
-          <Badge className="bg-green-100 text-green-800">SQL</Badge>
-          <Badge className="bg-green-100 text-green-800">Data Visualisation</Badge>
-          <Badge className="bg-green-100 text-green-800">Machine Learning</Badge>
-          <Badge className="bg-green-100 text-green-800">Git</Badge>
-          <Badge className="bg-green-100 text-green-800">Jupyter</Badge>
-        </MotionDiv>
       </MotionDiv>
     </div>
   );
