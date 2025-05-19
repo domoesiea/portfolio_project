@@ -305,17 +305,16 @@ export default function ProjectGallery() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <h2 className="text-3xl font-bold mb-4">À propos de moi</h2>
+        <h2 className="text-3xl font-bold mb-4">About Me</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mb-4">
-          Étudiant passionné par la data science, l'analyse de données et le machine learning. J'aime résoudre des problèmes concrets avec les données et créer des visualisations qui rendent les résultats accessibles à tous. Actuellement à la recherche d'un stage pour approfondir mes compétences en entreprise.
-        </p>
+        I’m a final-year engineering student passionate about the intersection of mathematics, AI, and complex systems.        </p>
 
         <div className="flex justify-center gap-4 mb-4">
           <Button asChild  className="">
             <a href="mailto:mon.email@example.com">📧 Me Contacter</a>
           </Button>
           <Button variant="secondary" asChild  className="">
-            <a href="/mon-cv.pdf" target="_blank">📄 Voir mon CV</a>
+            <a href="/CV_Domo_Adama.pdf" target="_blank">📄 Voir mon CV</a>
           </Button>
           <Button variant="outline" asChild  className="">
             <a href="/mon-portfolio.pdf" target="_blank">
