@@ -336,7 +336,7 @@ export default function ProjectGallery() {
           <span className="mt-1">GitHub</span>
           </MotionLink>
           <MotionLink
-            href="https://www.linkedin.com/in/mon-linkedin"
+            href="https://www.linkedin.com/in/adama-domo-03a00126b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             className="flex flex-col items-center text-muted-foreground hover:text-blue-700"
             whileHover={{ scale: 1.2 }}
