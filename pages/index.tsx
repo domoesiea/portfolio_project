@@ -311,7 +311,7 @@ export default function ProjectGallery() {
 
         <div className="flex justify-center gap-4 mb-4">
           <Button asChild  className="">
-            <a href="mailto:mon.email@example.com">📧 Me Contacter</a>
+            <a href="mailto:domo@et.esiea.fr">📧 Me Contacter</a>
           </Button>
           <Button variant="secondary" asChild  className="">
             <a href="/CV_Domo_Adama.pdf" target="_blank">📄 Voir mon CV</a>
